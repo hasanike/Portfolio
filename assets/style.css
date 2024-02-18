@@ -9,12 +9,17 @@ header {
 nav a {
     color: #27ea6f;
     font-weight: bold;
+  
 }
 
 nav ul {
-  display: flex;
-  justify-content: space-evenly;
-  min-width: 300px;
+  float: right;
+}
+
+h1 {
+  display: inline-block;
+  padding: 10px;
+  font: 40px;
 }
 
 h2 {
@@ -63,6 +68,8 @@ main{
 
 
 .experience ul {
+  list-style-type: none;
+  display: flex;
   
 }
 .experience li{ 
