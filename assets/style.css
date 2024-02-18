@@ -63,7 +63,8 @@ main{
   display: flexbox;
 }
 .experience {
-  
+  display: flex;
+  background-color: #ea2727;
 }
 
 
