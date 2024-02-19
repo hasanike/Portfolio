@@ -3,29 +3,42 @@
     background-color: gray;
     display: flex;
     justify-content: space-between;
+    color: navy
 }
 .navigation ul {
     float: right;
     font-size: 24px;
 }
+.navigation li {
+    justify-content: space-evenly;
+}
 /*  */
 .banner {
-    display: flex
+    display: flex;
+    background-color: gray;
   }
   
 .banner img {
     width: 500px;
 }
 /*  */
+.languages {
+    display: flex;
+    
+}
+
+
 .main-element { 
     display: flex;
 }
 /*  */
 .title {
     display: flex;
+    flex-wrap: wrap;
     background-color: grey;
     align-items: center;
     justify-content: space-evenly;
+    flex-direction: column;
     flex: 1 0 15%;
 }
 
@@ -54,6 +67,7 @@
 
 }
 .contact-me ul {
+    display: flex;
     justify-content: space-evenly;
 }
 .contact-me li {
