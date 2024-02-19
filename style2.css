@@ -7,6 +7,15 @@
     float: right;
     font-size: 24px;
 }
+
+.banner {
+    display: flex
+  }
+  
+  .banner img {
+    width: 500px;
+}
+
 .main-element {
     display: flex;
 }
@@ -14,6 +23,13 @@
     background-color: grey;
     flex: 1 0 15%;
 }
+
+.title ul {
+    list-style: none;
+    font-size: 40px;
+    
+}
+
 
 .details {
     background-color: rgb(0, 128, 66);
