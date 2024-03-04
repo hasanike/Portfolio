@@ -8,20 +8,20 @@
 - [Portfolio](#portfolio)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
-    - [Criteria](#criteria)
-    - [Technologies](#technologies)
-    - [Images](#images)
-    - [Deployed Link](#deployed-link)
+  - [Criteria](#criteria)
+  - [Technologies](#technologies)
+  - [Images](#images)
+  - [Deployed Link](#deployed-link)
 
-### Criteria
+## Criteria
 - ![alt text](./assets/images/Screenshot%202024-02-17%20at%206.40.48%20PM.png "Acceptance Criteria")
 
-### Technologies
+## Technologies
 -   HTML for structure
 -   CSS for design
   
-### Images
+## Images
+- ![alt text](./assets/images/Screenshot%202024-03-04%20at%2011.46.37%20AM.png "portfolio image")
 
-
-### Deployed Link
+## Deployed Link
 
