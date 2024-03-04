@@ -24,4 +24,4 @@
 - ![alt text](./assets/images/Screenshot%202024-03-04%20at%2011.46.37%20AM.png "portfolio image")
 
 ## Deployed Link
-
+https://hasanike.github.io/Portfolio/
