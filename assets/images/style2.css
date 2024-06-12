@@ -1,4 +1,12 @@
 /*  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background: navy;
+}
 .navigation {
     background-color: gray;
     display: flex;
@@ -6,7 +14,7 @@
     color: navy
 }
 .navigation ul {
-    float: right;
+    text-align: right;
     font-size: 24px;
 }
 .navigation li {
