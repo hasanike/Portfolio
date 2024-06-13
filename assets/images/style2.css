@@ -1,84 +1,46 @@
-/*  */
 * {
-    margin: 0;
-    padding: 0;
+margin: 0;
+padding: 0;
 }
 
-.body {
-    background: navy;
+header {
+   display: flex;
+   justify-content: space-between;
+   background-color: rgb(15, 15, 136);
+   color: rgb(232, 186, 130);
+
+
 }
-.navigation {
-    background-color: gray;
+
+main{
+    background-color: rgb(232, 186, 130);
+}
+
+.navigation-ul{
     display: flex;
-    justify-content: space-between;
-    color: navy
+    display: inline-block;
+
 }
-.navigation ul {
-    text-align: right;
-    font-size: 24px;
-}
-.navigation li {
-    justify-content: space-evenly;
-}
-/*  */
 .banner {
     display: flex;
-    background-color: gray;
-  }
-  
-.banner img {
-    width: 500px;
+    justify-content: space-between;
+
 }
-/*  */
 .languages {
     display: flex;
-    
-}
-
-
-.main-element { 
-    display: flex;
-}
-/*  */
-.title {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: grey;
     align-items: center;
-    justify-content: space-evenly;
-    flex-direction: column;
-    flex: 1 0 15%;
+    justify-content: column;
+
 }
 
-.title ul {
-    list-style: none;
-    font-size: 40px;
+
+
+.main-element {
+    display: flex;
+    align-items: left;
+}
+.contact-me {
+    display: flex;
+    justify-content: space-evenly;
     
-}
-.title li {
-    justify-content: space-evenly;
-    padding: 10px;
-}
-/*  */
-
-.details {
-    background-color: rgb(0, 128, 66);
-    flex: 1 0 65%
-}
-.about-me {
-    font: 25px
-}
-
-.contact-me{
-    display: flex;
-   justify-content: space-between;
-
-}
-.contact-me ul {
-    display: flex;
-    justify-content: space-evenly;
-}
-.contact-me li {
-    display: inline;
-    font-size: 20px;
 }
