@@ -1,46 +1,38 @@
-* {
-margin: 0;
-padding: 0;
+*
+{
+    margin: 0;
+    padding: 0;
 }
 
 header {
-   display: flex;
-   justify-content: space-between;
-   background-color: rgb(15, 15, 136);
-   color: rgb(232, 186, 130);
-
-
-}
-
-main{
-    background-color: rgb(232, 186, 130);
-}
-
-.navigation-ul{
     display: flex;
-    display: inline-block;
-
+    justify-content: space-evenly;
 }
-.banner {
-    display: flex;
-    justify-content: space-between;
 
-}
-.languages {
+.about-me {
     display: flex;
-    align-items: center;
-    justify-content: column;
 
 }
 
-
-
-.main-element {
+.about-me-p { 
     display: flex;
-    align-items: left;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
 }
 .contact-me {
     display: flex;
-    justify-content: space-evenly;
-    
+
+}
+
+.contact-me-ul {
+    list-style: none;
 }
