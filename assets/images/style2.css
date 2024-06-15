@@ -6,15 +6,13 @@
 
 header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: rgb(11, 11, 85);
     color:rgb(190, 141, 81)
 }
 
 h1 {
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 .navigation {
@@ -25,25 +23,39 @@ h1 {
     display: flex;
     list-style: none;
 }
+a {
+    color: rgb(190, 141, 81);
+}
+
+
 .about-me {
     display: flex;
-    color: rgb(11, 11, 85);
+    background-color: rgb(190, 141, 81);
 
 }
 
 .about-me p {
     display: flex;
-    background-color: rgb(190, 141, 81);
-    justify-content: stretch;
+    justify-content: center;
+    align-items: center;
+    color: rgb(11, 11, 85)
 }
 
 main {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     background-color: rgb(11, 11, 85);
     color: rgb(190, 141, 81)
 }
-
+.experience {
+    display: flex;
+    justify-content: center;
+    align-items: column;
+}
+.experience ul {
+    display: flex;
+    justify-content: center;
+}
 .contact-me {
     display: flex;
     justify-content: center;
@@ -52,5 +64,7 @@ main {
 
 .contact-me ul {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     list-style: none;
 }
