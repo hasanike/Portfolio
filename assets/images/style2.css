@@ -51,10 +51,21 @@ main {
     display: flex;
     justify-content: center;
     align-items: column;
+
 }
 .experience ul {
     display: flex;
+    
+    flex-wrap: wrap;
     justify-content: center;
+    list-style: none;
+}
+#github {
+    flex: 2 0 0;
+}
+
+.experience li {
+    flex: 1 0 0;
 }
 .contact-me {
     display: flex;
