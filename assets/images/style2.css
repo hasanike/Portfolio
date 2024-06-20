@@ -10,18 +10,28 @@ header {
     background-color: rgb(11, 11, 85);
     color:rgb(190, 141, 81)
 }
-
 h1 {
-    display: flex;
+    text-align: left;
+    margin: 10px; 
+
 }
 
 .navigation {
-    display: flex; 
+   text-align: right;
+   
 }
 
 .navigation ul {
     display: flex;
     list-style: none;
+    font-size: 25px;
+    
+}
+ 
+.navigation li {
+    margin: 10px;
+    
+    
 }
 a {
     color: rgb(190, 141, 81);
@@ -56,7 +66,6 @@ main {
 .experience ul {
     display: flex;
     
-    flex-wrap: wrap;
     justify-content: center;
     list-style: none;
 }
