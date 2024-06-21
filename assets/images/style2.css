@@ -59,22 +59,19 @@ main {
 }
 .experience {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: column;
+    margin: 10px;
 
 }
 .experience ul {
-    display: flex;
-    
-    justify-content: center;
-    list-style: none;
+    list-style-type: none;
 }
-#github {
-    flex: 2 0 0;
-}
-
 .experience li {
-    flex: 1 0 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 10px;
 }
 .contact-me {
     display: flex;
@@ -87,4 +84,20 @@ main {
     justify-content: space-between;
     align-items: center;
     list-style: none;
+}
+
+.projects {
+    display: flex;
+    justify-content: space-between;
+    align-items: column;
+
+ 
+    
+}
+
+.projects ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: column;
 }
