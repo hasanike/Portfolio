@@ -99,6 +99,21 @@ main {
 .projects ul {
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
+
+}
+
+.projects li {
+    display: flex;
     justify-content: space-evenly;
-    align-items: column;
+    margin: 20px;
+    padding: 10px;
+}
+
+.recent-project {
+    flex: 2 0 100px;
+}
+
+.past-projects {
+    flex: 1 0 100px; 
 }
