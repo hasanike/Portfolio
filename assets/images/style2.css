@@ -27,7 +27,7 @@ h1 {
     display: inline-flex;
     list-style: none;
     font-size: 25px;
-    border 10px; color: rgb(190, 141, 81);    
+    border: 10px; color: rgb(190, 141, 81);    
 }
  
 .navigation li {
