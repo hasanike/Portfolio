@@ -36,12 +36,40 @@ img {
     font-family: Arial, Helvetica, sans-serif;
     
 
-}
-    
-
+}   
  ul {
     display: flex;
     list-style-type: none;
     justify-content: space-evenly;
-    ;
+    
  }
+
+
+li {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+
+main {
+     display: flex;
+
+}
+ .details {
+    display: flex;
+    flex-direction: column;
+    
+ }
+#bootcamp {
+    border: 8px solid orange;
+}
+
+
+#socials {
+    border: 8px solid purple;
+}
+
+#resume {
+    border: 8px solid olive;
+}
