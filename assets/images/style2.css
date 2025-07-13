@@ -1,141 +1,47 @@
 * {
-    margin: 10px;
-    padding: 10px;
-    background-color: gray;
+    background-color: tan;
 }
 
 
-header {
+.navbar,
+footer 
+{
     display: flex;
-    justify-content: space-between;
-    color:rgb(190, 141, 81);
-    background-color: navy;
-    border-radius: 20px;
-}
-h1 {
-    justify-content: center;
-    padding: 40px;
-    text-align: left;
-    border-radius: 20px;
+    border: 8px solid navy;
+
 }
 
-.navigation {
+
+.about-me  {
+    display: flex;
+    padding: 20px;
+    margin: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: auto;
+}
+
+img {
     display: flexbox;
-    padding: 20px;
-   text-align: right;
-   
-}
-
-.navigation ul {
-    list-style: none;
-    font-size: 25px;  
-    justify-content: space-evenly;
-
-}
- 
-.navigation li {
-    display: inline;
-    padding: 20px;
-    margin: 10px;
-
-    
-
-}
-a {
-    color: rgb(190, 141, 81);
-}
-
-banner {
-    display: flex;
-
-}
-
-.about-me {
-    display: flex;
-    background-color: rgb(190, 141, 81);
-    
-}
-.about-me img {
-    width: 700px;
-    height: 500px;
-    border-radius: 50%;
-    
+    height: 450px;
+    border-radius: 20px;
+    border: 8px solid olive;
 }
 
 .about-me p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(11, 11, 85);
-    font-family: "arial";
-    font-size: 16pt;
-    font-weight: bold;
-    padding: 20px;
-}
-
-main {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: rgb(11, 11, 85);
-    color: rgb(190, 141, 81)
-}
-.experience {
-    display: flex;
-    justify-content: space-between;
-    align-items: column;
-    margin: 10px;
+    border: 8px solid olive; 
+    max-width: 600px;
+    padding: 15px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
 
 }
+    
 
-.experience ul {
+ ul {
+    display: flex;
     list-style-type: none;
-}
-.experience li {
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 20px;
-    
-}
-.contact-me {
-    display: flex;
-    justify-content: center;
-    background-color: rgb(190, 141, 81);
-}
-
-.contact-me ul {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
-
-.projects {
-    display: flex;
-    justify-content: space-between;
-    align-items: column;
-
- 
-    
-}
-
-.projects ul {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-
-}
-
-.projects li {
-    display: flex;
     justify-content: space-evenly;
-    margin: 20px;
-    padding: 10px;
-}
-
-.recent-project {
-    flex: 2 0 100px;
-}
-
-.past-projects {
-    flex: 1 0 100px; 
-}
+    ;
+ }
