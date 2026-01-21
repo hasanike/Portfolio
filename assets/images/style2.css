@@ -1,6 +1,7 @@
 
 body {
     background-color: bisque;
+   
 }
 
 h1 {
@@ -47,4 +48,43 @@ footer ul {
     display: flex;
     justify-content: space-around;
     text-align: center;
+}
+
+main {
+    display: flex;
+    width: 100px;
+  
+}
+aside {
+    display: flex;
+    align-self: left;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+        
+}
+.box {
+    border: 2px solid;
+    margin: 15px;
+    padding: 15px;
+
+}
+
+#aboutMe {
+    background-color: rgb(222, 170, 73);
+}
+
+#experience {
+    background-color: rgb(67, 67, 184)
+}
+
+#interests {
+    background-color: rgb(77, 163, 77);
+}
+
+footer {
+    background-color: rgb(34, 65, 37);
 }
