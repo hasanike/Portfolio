@@ -1,23 +1,23 @@
 
 body {
-    background-color: bisque;
+    background-color: rgb(61, 40, 40)
    
 }
 
 h1 {
     text-align: center;
+    color: gray;
 }
 
 
 
 .navbar ul {
     list-style: none;
-    background-color: rgb(34, 65, 37);
+    background-color: rgb(221, 146, 8);
     overflow: hidden;
     display: flex;
     justify-content: space-evenly;
-    color: bisque; 
-
+   
 }
 
 .navbar li {
@@ -41,7 +41,7 @@ main {
     
 }
 
-.box {
+#box {
     border: 2px solid;
     margin: 20px;
     padding: 15px;
@@ -49,22 +49,24 @@ main {
     width: auto;
     display: flex;
     align-items: right;
+    background-color: rgb(221, 146, 8);
     
 }
 
-#aboutMe {
-    background-color: rgb(222, 170, 73);
+#bio {
+    background-color: gray;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 400;
+    width: 800px;
+
 }
 
-#experience {
-    background-color: rgb(67, 67, 184)
-}
-
-#interests {
-    background-color: rgb(77, 163, 77);
-}
 
 footer {
-    background-color: rgb(34, 65, 37);
-    color:bisque;
+    background-color: rgb(221, 146, 8);
+    
 }
+
+
