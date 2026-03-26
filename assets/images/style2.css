@@ -9,75 +9,88 @@ h1 {
     color: rgb(221, 146, 8)
 }
 
+main { 
+    display: flex;
+    justify-content: space-evenly;
+    border: 3px lime solid;
+    padding: 40px;
+}
+
+img {
+    height: 600px;
+    width: 600px; 
+    object-fit: contain; 
+     
+}
+
+.navbar { 
+    display: flex;
+    justify-content: center;
+    border: 1px solid yellow;
+    background-color: gray;
+}
 
 
 .navbar ul {
     list-style: none;
-    background-color: gray;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-evenly;
-   
+
 }
 
 .navbar li {
     float: left; 
 }
+ 
+#bio {
+    display: flex;
+    flex-direction: column;
+    border: 2px yellow solid;
+    width: 750px;
 
-img  {
-    border-radius: 15px;
-    border: 2px solid rgb(221, 146, 8);
 }
-
-
 
 footer ul { 
-    display: flex;
-    justify-content: space-around;
-    text-align: center;
     list-style-type: none;
 }
-main {
-    display: flex; 
-    
-}
 
-#box {
-    border: 2px solid;
-    margin: 20px;
-    padding: 15px;
-    display: block;
-    width: auto;
+.bio {
     display: flex;
-    align-items: right;
     border: 2px solid rgb(221, 146, 8)
     
 }
 
-#bio {
-    background-color: rgb(221, 146, 8);
-    display: flex;
-    flex-direction: column;
-    height: 400;
-    width: 800px;
-    justify-content: space-between;
-   
-
+#content { 
+ display: flex;
+ flex-direction: column;
+ justify-content: space-evenly;
 
 }
 
+.biocontent {
+    background-color: rgb(221, 146, 8);
+    display: block;
+}
 
 footer {
     background-color: gray;
     
 }
 
-.bio {
+.box {
+    width: 300px;
+    height: 300px;
+
+
+}
+
+.workhistory {
     background-color: #98c1d9;
 }
 .homework {
     background-color: #e0fbfc;
 }
+
  .goals {
     background-color: #3d5a80;
  }
+
+ 
